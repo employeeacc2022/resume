@@ -1,0 +1,93 @@
+﻿body {
+    margin: 0;
+}
+.gCenteredContent {
+    justify-content: center;
+    align-items: center;
+}
+
+.gCenteredText {
+    text-align:  center;
+}
+
+.gFillContent {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gCenteredWidth {
+    justify-content: center;
+}
+
+.gCenteredHeight {
+    align-items: center;
+}
+.gWidth100 {
+    width: 100%;
+}
+
+.gWidth50 {
+    width: 50%;
+}
+
+.gHeight100 {
+    height: 100%;
+}
+.gHeight100vh {
+    height: 100vh;
+}
+.gWidth0 {
+    width: 0;
+}
+.gHeight0 {
+    height: 0;
+}
+
+.gWH0 {
+    width: 0;
+    height: 0;
+}
+
+
+/*--Центровка для сетки--*/
+/*--Стили сетка--*/    
+
+
+.gRow {
+    display: inline-flex;
+}
+.gCollumn {
+    display: flex;
+    flex-flow: column;
+}
+
+.gCell {
+    display: flex;
+}
+/*--Стили сетка--*/
+
+.Element_Hidden{
+    display:none;
+}
+.Element_Show {
+    display: flex !important;
+}
+.gOverflowHidden{
+    overflow:hidden;
+}
+
+.gUserNoSelect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+
+.gNoTextSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;gFillContent

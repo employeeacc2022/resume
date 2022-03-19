@@ -1,0 +1,336 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./Account_Theme/bgLogin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.bodyColor {
+    background-color: #78fac47e;
+}
+
+.backgroundColor {
+    background-color: #a2ddff7e;
+}
+
+.whiteBackground {
+    background-color: #ffffff;
+}
+
+.gRow {
+    display: inline-flex;
+}
+
+.gCollumn {
+    display: flex;
+    flex-flow: column;
+}
+
+.gCell {
+    display: flex;
+}
+
+.dvPage {
+    height: 100vh;
+}
+
+
+.overflowAuto {
+    overflow: auto; 
+}
+
+
+
+
+.dvFormHolder3x100 {
+    font-family: "Roboto-Regular";
+    width: 3%;
+    height: 100%;
+    
+}
+
+.dvFormHolder5x100 {
+    font-family: "Roboto-Regular";
+    width: 5%;
+    height: 100%;
+    
+}
+
+.dvFormHolder10x100 {
+    font-family: "Roboto-Regular";
+    width: 10%;
+    height: 100%;
+    
+}
+
+.dvFormHolder25x100 {
+    font-family: "Roboto-Regular";
+    width: 25%;
+    height: 100%;
+    
+}
+
+.dvFormHolder30x100 {
+    font-family: "Roboto-Regular";
+    width: 30%;
+    height: 100%;
+    
+}
+
+.dvFormHolder70x100 {
+    font-family: "Roboto-Regular";
+    width: 70%;
+    height: 100%;
+    
+}
+
+.dvFormHolder100x25 {
+    font-family: "Roboto-Regular";
+    width: 100%;
+    height: 25%;
+}
+
+.dvFormHolder40x100 {
+    font-family: "Roboto-Regular";
+    width: 40%;
+    height: 100%;
+}
+
+.dvFormHolder50x100 {
+    font-family: "Roboto-Regular";
+    width: 50%;
+    height: 100%;
+}
+
+.dvFormHolder90x100 {
+    font-family: "Roboto-Regular";
+    width: 90%;
+    height: 100%;
+}
+
+.dvFormHolder20x100 {
+    font-family: "Roboto-Regular";
+    width: 20%;
+    height: 100%;
+}
+
+.dvFormHolder50x30 {
+    font-family: "Roboto-Regular";
+    width: 50%;
+    height: 30%;
+}
+
+.dvFormHolder50xAuto {
+    font-family: "Roboto-Regular";
+    width: 50%;
+    height: auto;
+    /* flex-basis: auto; */
+}
+
+.dvFormHolder40x30 {
+    font-family: "Roboto-Regular";
+    width: 40%;
+    height: 30%;
+}
+
+.dvFormHolder100x5 {
+    font-family: "Roboto-Regular";
+    width: 100%;
+    height: 5%;
+}
+
+.dvFormHolder100x10 {
+    font-family: "Roboto-Regular";
+    width: 100%;
+    height: 10%;
+}
+
+.dvFormHolder100x15 {
+    font-family: "Roboto-Regular";
+    width: 100%;
+    height: 15%;
+}
+
+.dvFormHolder100x20 {
+    font-family: "Roboto-Regular";
+    width: 100%;
+    height: 20%;
+}
+
+.dvFormHolder100x30 {
+    font-family: "Roboto-Regular";
+    width: 100%;
+    height: 30%;
+}
+
+.dvFormHolder100x40 {
+    font-family: "Roboto-Regular";
+    width: 100%;
+    height: 40%;
+}
+
+.dvFormHolder100x50 {
+    font-family: "Roboto-Regular";
+    width: 100%;
+    height: 50%;
+}
+
+.dvFormHolder100x70 {
+    font-family: "Roboto-Regular";
+    width: 100%;
+    height: 70%;
+}
+
+.dvFormHolder100x80 {
+    font-family: "Roboto-Regular";
+    width: 100%;
+    height: 80%;
+}
+
+.dvFormHolder100x90 {
+    font-family: "Roboto-Regular";
+    width: 100%;
+    height: 90%;
+}
+
+.dvFormHolder7x100 {
+    font-family: "Roboto-Regular";
+    width: 7.45%;
+    height: 100%;
+}
+
+.dvFormHolder80x100 {
+    font-family: "Roboto-Regular";
+    width: 80%;
+    height: 100%;
+}
+
+.dvFormHolder12x100 {
+    font-family: "Roboto-Regular";
+    width: 12%;
+    height: 100%;
+}
+
+.dvFormHolder15x100 {
+    font-family: "Roboto-Regular";
+    width: 15%;
+    height: 100%;
+}
+
+.dvFormHolder85x85 {
+    font-family: "Roboto-Regular";
+    width: 85%;
+    height: 85%;
+}
+
+.dvFormHolder20x40 {
+    font-family: "Roboto-Regular";
+    width: 20%;
+    height: 40%;
+}
+
+
+
+.gCenteredContent {
+    justify-content: center;
+    align-items: center;
+}
+
+.gCenteredText {
+    text-align:  center;
+}
+
+.gFillContent {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gCenteredWidth {
+    justify-content: center;
+}
+
+.gCenteredHeight {
+    align-items: center;
+}
+
+
+
+.mainObject {
+    width: 80%;
+    height: 70%;
+    border: 3px solid #8ac441;
+    /* background-color: #00ffff; */
+    border-radius: 120px;
+}
+
+.mainObject.active  {    
+    background: #8bc441;
+}   
+    
+.newForm {
+    border: 3px solid #8bc441;
+    color: #a09c9c;
+    border-radius: 20px;
+}
+
+.inField {
+    width: 100%;
+    font: 400 1.1111vw "Roboto-Regular";
+    outline: none;
+    border: none;
+    line-height: 2.4028vw;
+    background-color: transparent;
+    padding: 0;
+}
+
+
+.mainObject1 {
+    width: 80%;
+    height: 70%;
+    border: 3px solid #8ac441;
+    background: #ffffff;
+    border-radius: 120px;
+}
+
+
+
+
+.formLocation5x2{
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+}
+
+.formLocation5x27 {
+    position: absolute;
+    top: 5%;
+    left: 27.5%;
+}
+
+.formLocation5x52 {
+    position: absolute;
+    top: 5%;
+    left: 52.5%;
+}
+
+.formLocation5x77 {
+    position: absolute;
+    top: 5%;
+    left: 77.5%;
+}
+
+.formLocation50x25 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.tableObject {
+    width: 50%;
+    height: 30%;
+    border: 3px solid #8ac441;
+    /* background-color: #00ffff; */
+    border-radius: 120px;
+}
