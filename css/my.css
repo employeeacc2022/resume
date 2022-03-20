@@ -201,6 +201,13 @@
     height: 100%;
 }
 
+.dvFormHolder7x100radius {
+    font-family: "Roboto-Regular";
+    width: 7.45%;
+    height: 100%;
+    border-radius: 7%;
+}
+
 .dvFormHolder80x100 {
     font-family: "Roboto-Regular";
     width: 80%;
