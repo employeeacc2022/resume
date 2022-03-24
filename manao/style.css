@@ -1,0 +1,113 @@
+#formErrorLogin {  
+    top: 14%;
+    left: 20%;
+    width: auto;
+    height: 3%;
+    color: #ff0000;
+    font-size: 14px;
+    position: absolute;
+  }
+
+  .errorLoginClass {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+  }
+  
+  .errorLoginClass.active  {    
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+  }
+
+
+  #formErrorPassword {  
+    top: 22%;
+    left: 20%;
+    width: auto;
+    height: 3%;
+    color: #ff0000;
+    font-size: 14px;
+    position: absolute;
+  }
+
+  .errorPasswordClass {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+  }
+  
+  .errorPasswordClass.active  {    
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+  }
+  
+
+  #formErrorEmail {  
+    top: 37%;
+    left: 20%;
+    width: auto;
+    height: 3%;
+    color: #ff0000;
+    font-size: 14px;
+    position: absolute;
+  }
+
+  .errorEmailClass {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+  }
+  
+  .errorEmailClass.active  {    
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+  }
+
+
+  #formErrorConfirmPassword {  
+    top: 30%;
+    left: 20%;
+    width: auto;
+    height: 3%;
+    color: #ff0000;
+    font-size: 14px;
+    position: absolute;
+  }
+
+  .errorConfirmPasswordClass {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+  }
+  
+  .errorConfirmPasswordClass.active  {    
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+  }
+
+
+  #formErrorName {  
+    top: 48%;
+    left: 20%;
+    width: auto;
+    height: 3%;
+    color: #ff0000;
+    font-size: 14px;
+    position: absolute;
+  }
+
+  .errorNameClass {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+  }
+  
+  .errorNameClass.active  {    
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+  }
