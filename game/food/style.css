@@ -1,0 +1,239 @@
+/* .game{
+    width: 580px;
+    height: 340px;
+    border: 1px solid #000;
+    margin: auto;
+    /* background-image: url(img/forest.gif); 
+    background-size: 580px 350px;
+} */
+
+:root {
+    --CurrentValueX: 200px;
+    --CurrentValueY: 200px;
+    --startValueX: 200px;
+    --startValueY: 200px;
+
+    --foodCurrentValueX: 200px;
+    --foodCurrentValueY: 200px;
+    --foodstartValueX: 200px;
+    --foodstartValueY: 200px;
+
+}
+
+
+#line{
+    width: 1800px;
+    height: 695px;
+    border-bottom: 4px solid rgb(31, 139, 40);
+}
+
+
+#food {
+    width: 30px;
+    height: 30px;    
+    background-size: 30px 30px;
+    background-image: url(img/jim.gif);
+    position: absolute;
+    /* top: 150px;
+    left: 280px; */
+} 
+
+
+#tree {
+    width: 250px;
+    height: 250px;    
+    background-size: 250px 250px;
+    background-image: url(img/tree.jpg);
+    position: absolute;
+    top: 430px;
+    left: -60px;
+}
+
+
+#trashGlass {
+    width: 75px;
+    height: 75px;    
+    background-size: 75px 75px;
+    background-image: url(img/trashGlass.png);
+    position: absolute;
+    top: 600px;
+    left: 800px;
+}
+
+#trashPaper {
+    width: 75px;
+    height: 75px;    
+    background-size: 75px 75px;
+    background-image: url(img/trashPaper.png);
+    position: absolute;
+    top: 600px;
+    left: 900px;
+}
+
+#trashPlastic {
+    width: 75px;
+    height: 75px;    
+    background-size: 75px 75px;
+    background-image: url(img/trashPlastic.png);
+    position: absolute;
+    top: 600px;
+    left: 1000px;
+}
+
+#plastic {
+    width: 60px;
+    height: 75px;    
+    background-size: 60px 75px ;
+    background-image: url(img/plastic.jpg);
+    position: absolute;
+    top: 20px;
+    left: 220px;
+}
+
+
+#paper {
+    width: 100px;
+    height: 80px;    
+    background-size: 100px 80px ;
+    background-image: url(img/paper.jpg);
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+
+#bottle {
+    width: 60px;
+    height: 80px;    
+    background-size: 60px 80px ;
+    background-image: url(img/bottle.png);
+    position: absolute;
+    top: 20px;
+    left: 415px;
+}
+
+
+#bird {
+    width: 80px;
+    height: 80px;    
+    background-size: 80px 80px;
+    background-image: url(img/bird_right.gif);
+    position: absolute;
+    /* top: 100px;
+    left: 0px;  */
+    z-index: 1;
+}
+
+
+#birdKids {
+    width: 120px;
+    height: 120px;    
+    background-size: 120px 120px;
+    background-image: url(img/house.png);
+    position: absolute;
+    top: 12px;
+    left: 640px; 
+}
+
+
+
+.birdFlyToCorXY {
+    animation: birdMoveToCorXY 4s linear;
+}
+
+
+@keyframes birdMoveToCorXY{
+    0%{
+        left: var(--startValueX, 200px);
+        top: var(--startValueY, 200px);
+    }
+    100%{
+        left: var(--CurrentValueX, 200px);
+        top: var(--CurrentValueY, 200px);
+    }
+}
+
+
+.birdFlyCircleXY {
+    animation: birdMoveCircleXY 4s linear;
+}
+
+
+@keyframes birdMoveCircleXY{
+    0%{
+        left: var(--startValueX, 200px);
+        top: var(--startValueY, 200px);
+    }
+
+    100%{
+        left: var(--CurrentValueX, 200px);
+        top: var(--CurrentValueY, 200px);
+    }
+
+}
+
+
+.foodFlyCircleXY {
+    animation: foodMoveCircleXY 4s linear;
+}
+
+
+@keyframes foodMoveCircleXY{
+    0%{
+        left: var(--foodstartValueX, 200px);
+        top: var(--foodstartValueY, 200px);
+    }
+
+    100%{
+        left: var(--foodCurrentValueX, 200px);
+        top: var(--foodCurrentValueY, 200px);
+    }
+}
+
+
+.foodFlyToCorXY {
+    animation: foodMoveToCorXY 4s linear;
+}
+
+
+@keyframes foodMoveToCorXY{
+    0%{
+        left: var(--foodstartValueX, 200px);
+        top: var(--foodstartValueY, 200px);
+    }
+    100%{
+        left: var(--foodCurrentValueX, 200px);
+        top: var(--foodCurrentValueY, 200px);
+    }
+}
+
+
+
+
+
+/* @keyframes circle{
+    from {    transform: rotate(0deg) translateX(150px) rotate(0deg);  }  to {    transform: rotate(360deg) translateX(150px) rotate(-360deg);  }
+} */
+
+/* @keyframes circle2{
+    from { transform: rotate(180deg) translateX(150px) rotate(180deg); }    to   { transform: rotate(540deg) translateX(150px) rotate(540deg); }
+} */
+
+/* @keyframes salto{
+    to { transform: rotate(30deg); }
+} */
+
+/* @keyframes 1turn{
+    to { transform: rotate(1turn); }
+} */
+
+/* Padenie */
+/* to { transform: translateY(200px); } */
+
+
+/* 0%   { transform: rotate(-180deg); }
+100% { transform: rotate(0deg);    } */
+
+/* Dyga */
+/* 0% { transform: rotate(0deg) translateX(500px) translateY(300px) otate(0deg) ;}
+100%{ transform: rotate(-180deg) translateX(500px) translateY(300px)  rotate(180deg);  } */

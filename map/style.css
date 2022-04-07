@@ -1,0 +1,1117 @@
+
+:root {
+    --objectRotate: 90deg;
+
+}
+
+
+/* .mapPlan{
+    width: 1200px;
+    height: 700px;
+    border: 4px solid rgb(7, 119, 104);
+    margin: auto;
+    background-size: 700px 500px;
+} */
+
+.classMapObject {    
+    width: 80px;
+    height: 80px;    
+    background-size: 80px 80px;
+    border: 3px solid rgb(23, 138, 57);
+    color: rgb(247, 0, 0);
+    position: absolute;
+    transform: rotate();
+    top: 40px;
+    left: 130px;
+    z-index: 1;
+}
+
+
+#map {
+    width: 1000px;
+    height: 850px;    
+    background-size: 750px 750px;
+    position: absolute;
+    top: 25px;
+    left: 500px;    
+}
+
+
+#house {
+    width: 80px;
+    height: 80px;    
+    background-size: 80px 80px;
+    border: 3px solid rgb(23, 138, 57);
+    color: rgb(247, 0, 0);
+    position: absolute;
+    transform: rotate();
+    top: 40px;
+    left: 20px;
+    z-index: 1;
+}
+
+
+#horseHouse {
+    width: 40px;
+    height: 140px;    
+    background-size: 40px 140px;
+    border: 3px solid rgb(23, 138, 57);
+    color: rgb(247, 0, 0);
+    position: absolute;
+    transform: rotate();
+    top: 160px;
+    left: 20px;
+    z-index: 1;    
+}
+
+
+#horseGrass {
+    width: 120px;
+    height: 120px;    
+    background-size: 120px 120px;
+    border: 3px dashed rgb(23, 138, 57);
+    color: rgb(247, 0, 0);
+    position: absolute;
+    transform: rotate();
+    top: 340px;
+    left: 20px;
+    z-index: 1;
+}
+
+
+#horseGrass2 {
+    width: 120px;
+    height: 120px;    
+    background-size: 120px 120px;
+    border: 3px dashed rgb(23, 138, 57);
+    color: rgb(247, 0, 0);
+    position: absolute;
+    transform: rotate();
+    top: 500px;
+    left: 20px;
+    z-index: 1;
+}
+
+
+#horseCircle {
+    width: 100px;
+    height: 100px;    
+    background-size: 100px 100px;
+    border: 3px solid rgb(233, 219, 25);
+    color: rgb(247, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    transform: rotate();
+    top: 650px;
+    left: 20px;
+    z-index: 1;
+}
+
+
+#house3d {
+    width: 80px;
+    height: 80px;    
+    background-size: 80px 80px;
+    background-image: url(img/house3d.png);
+    color: rgb(247, 0, 0);
+    position: absolute;
+    transform: rotate();
+    top: 780px;
+    left: 20px;
+    z-index: 1;
+}
+
+
+.buttonAddHouse {
+    width: 140px;
+    height: 40px;    
+    background-size: 140px 40px;
+    background: #007E3E; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 5px; /* Уголки */
+    position: absolute;
+    transform: rotate();
+    top: 40px;
+    left: 1550px;
+    z-index: 1;
+}
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.classButton1 {    
+    border: 3px dashed rgb(163, 40, 9);
+    background: #2f8a37; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 25px; /* Уголки */
+    position: absolute;
+}
+
+
+#button_1    {
+    width: 80px;
+    height: 80px;    
+    background-size: 80px 80px;
+    top: 40px;
+    left: 1600px;
+    z-index: 1;
+}
+
+#button_2    {
+    width: 80px;
+    height: 80px;    
+    background-size: 80px 80px;
+    top: 180px;
+    left: 1600px;
+    z-index: 1;
+}
+
+#button_3    {
+    width: 80px;
+    height: 80px;    
+    background-size: 80px 80px;
+    top: 320px;
+    left: 1600px;
+    z-index: 1;
+}
+
+#button_4    {
+    width: 80px;
+    height: 80px;    
+    background-size: 80px 80px;
+    top: 460px;
+    left: 1600px;
+    z-index: 1;
+}
+
+#button_5    {
+    width: 80px;
+    height: 80px;    
+    background-size: 80px 80px;
+    top: 600px;
+    left: 1600px;
+    z-index: 1;
+}
+
+
+
+/* Это всплывающее меню, оно открывается по нажатию одной из 5 кнопок */
+#menu_1    {
+    
+    top: 200px;
+    left: 700px;
+}
+
+.classMenu_1  {    
+    width: 400px;
+    height: 300px;    
+    background-size: 400px 300px;
+    z-index: 1;
+    border: 3px solid rgb(84, 58, 128);
+    background: #00b7ff; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 25px; /* Уголки */
+    position: absolute;
+    z-index: 1;
+
+    /* Скрываем фон и сам попап. Запрещаем ему быть целью событий*/
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+}
+
+.classMenu_1.active  {    
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+/* ======================================================================*/
+#menu_2   {
+    
+    top: 200px;
+    left: 700px;
+}
+
+.classMenu_2  {    
+    width: 400px;
+    height: 300px;    
+    background-size: 400px 300px;
+    z-index: 1;
+    border: 3px solid rgb(84, 58, 128);
+    background: #00b7ff; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 25px; /* Уголки */
+    position: absolute;
+    z-index: 1;
+
+    /* Скрываем фон и сам попап. Запрещаем ему быть целью событий*/
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+}
+
+.classMenu_2.active  {    
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+/* ======================================================================*/
+#menu_3   {
+    
+    top: 200px;
+    left: 700px;
+}
+
+.classMenu_3  {    
+    width: 400px;
+    height: 300px;    
+    background-size: 400px 300px;
+    z-index: 1;
+    border: 3px solid rgb(84, 58, 128);
+    background: #00b7ff; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 25px; /* Уголки */
+    position: absolute;
+    z-index: 1;
+
+    /* Скрываем фон и сам попап. Запрещаем ему быть целью событий*/
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+}
+
+.classMenu_3.active  {    
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+/* ======================================================================*/
+#menu_4   {
+    
+    top: 200px;
+    left: 700px;
+}
+
+.classMenu_4  {    
+    width: 400px;
+    height: 300px;    
+    background-size: 400px 300px;
+    z-index: 1;
+    border: 3px solid rgb(84, 58, 128);
+    background: #00b7ff; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 25px; /* Уголки */
+    position: absolute;
+    z-index: 1;
+
+    /* Скрываем фон и сам попап. Запрещаем ему быть целью событий*/
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+}
+
+.classMenu_4.active  {    
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+/* ======================================================================*/
+#menu_5   {
+    
+    top: 200px;
+    left: 700px;
+}
+
+.classMenu_5  {    
+    width: 400px;
+    height: 300px;    
+    background-size: 400px 300px;
+    z-index: 1;
+    border: 3px solid rgb(84, 58, 128);
+    background: #00b7ff; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 25px; /* Уголки */
+    position: absolute;
+    z-index: 1;
+
+    /* Скрываем фон и сам попап. Запрещаем ему быть целью событий*/
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+}
+
+.classMenu_5.active  {    
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+/* ======================================================================*/
+
+
+
+
+
+/* ======================================================================*/
+/* Это кнопки/объекты которые находятся внутри всплывающего меню 1-1*/
+.classMenu_1_1  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px solid rgb(0, 0, 0);  
+    background: #3b2001;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_1_2  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(163, 40, 9);  
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+ .classMenu_1_3  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_1_4  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_1_5  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_1_6  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_1_7  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_1_8  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+/* Это кнопки объекты которые находятся внутри всплывающего меню 1-2*/
+.classMenu_2_1  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(0, 0, 0);  
+    background: #3b2001;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_2_2  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(255, 255, 255);  
+    background: #000000;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_2_3  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(27, 2, 255);
+    background: #ff00d4;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_2_4  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_2_5  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_2_6  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_2_7  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_2_8  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+/* Это кнопки объекты которые находятся внутри всплывающего меню 1-3*/
+.classMenu_3_1  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(0, 0, 0);  
+    background: #3c5075;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_3_2  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(255, 255, 255);  
+    background: #636768;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+ .classMenu_3_3  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(27, 2, 255);
+    background: #12b6df;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_3_4  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_3_5  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_3_6  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_3_7  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_3_8  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+/* Это кнопки объекты которые находятся внутри всплывающего меню 1-4*/
+.classMenu_4_1  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(0, 0, 0);  
+    background: #421230;
+    border-radius: 50%;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_4_2  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(255, 255, 255);  
+    background: #23665d;
+    border-radius: 50%;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+ .classMenu_4_3  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(27, 2, 255);
+    background: #13a56d;
+    border-radius: 50%;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_4_4  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    border-radius: 50%;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_4_5  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    border-radius: 50%;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_4_6  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    border-radius: 50%;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_4_7  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    border-radius: 50%;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_4_8  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    border-radius: 50%;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+/* Это кнопки объекты которые находятся внутри всплывающего меню 1-5*/
+.classMenu_5_1  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(0, 0, 0);  
+    background: #e09845;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_5_2  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(255, 255, 255);  
+    background: #a31919;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+ .classMenu_5_3  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(27, 2, 255);
+    background: #2e0627;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_5_4  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_5_5  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_5_6  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_5_7  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+.classMenu_5_8  {    
+    width: 60px;
+    height: 60px;    
+    background-size: 60px 60px;  
+    border: 3px dashed rgb(3, 78, 34);
+    background: #007E3E;
+    color: rgb(255, 0, 0);
+    position: absolute;
+}
+/* ======================================================================*/
+
+
+
+/*
+background: #189ac2;
+border-radius: 10px; */
+
+
+
+/* ======================================================================*/
+#menu_1_1   {
+
+    top: 50px;
+    left: 20px;
+}
+
+#menu_1_2   {
+
+    top: 50px;
+    left: 120px;
+}
+
+#menu_1_3   {
+
+    top: 50px;
+    left: 220px;
+}
+
+#menu_1_4   {
+
+    top: 50px;
+    left: 320px;
+}
+
+#menu_1_5   {
+
+    top: 160px;
+    left: 20px;
+}
+
+#menu_1_6   {
+
+    top: 160px;
+    left: 120px;
+}
+
+#menu_1_7   {
+
+    top: 160px;
+    left: 220px;
+}
+
+#menu_1_8   {
+
+    top: 160px;
+    left: 320px;
+}
+/* ======================================================================*/
+#menu_2_1   {
+
+    top: 50px;
+    left: 20px;
+}
+
+#menu_2_2   {
+
+    top: 50px;
+    left: 120px;
+}
+
+#menu_2_3   {
+
+    top: 50px;
+    left: 220px;
+}
+
+#menu_2_4   {
+
+    top: 50px;
+    left: 320px;
+}
+
+#menu_2_5   {
+
+    top: 160px;
+    left: 20px;
+}
+
+#menu_2_6   {
+
+    top: 160px;
+    left: 120px;
+}
+
+#menu_2_7   {
+
+    top: 160px;
+    left: 220px;
+}
+
+#menu_2_8   {
+
+    top: 160px;
+    left: 320px;
+}
+/* ======================================================================*/
+#menu_3_1   {
+
+    top: 50px;
+    left: 20px;
+}
+
+#menu_3_2   {
+
+    top: 50px;
+    left: 120px;
+}
+
+#menu_3_3   {
+
+    top: 50px;
+    left: 220px;
+}
+
+#menu_3_4   {
+
+    top: 50px;
+    left: 320px;
+}
+
+#menu_3_5   {
+
+    top: 160px;
+    left: 20px;
+}
+
+#menu_3_6   {
+
+    top: 160px;
+    left: 120px;
+}
+
+#menu_3_7   {
+
+    top: 160px;
+    left: 220px;
+}
+
+#menu_3_8   {
+
+    top: 160px;
+    left: 320px;
+}
+/* ======================================================================*/
+#menu_4_1   {
+
+    top: 50px;
+    left: 20px;
+}
+
+#menu_4_2   {
+
+    top: 50px;
+    left: 120px;
+}
+
+#menu_4_3   {
+
+    top: 50px;
+    left: 220px;
+}
+
+#menu_4_4   {
+
+    top: 50px;
+    left: 320px;
+}
+
+#menu_4_5   {
+
+    top: 160px;
+    left: 20px;
+}
+
+#menu_4_6   {
+
+    top: 160px;
+    left: 120px;
+}
+
+#menu_4_7   {
+
+    top: 160px;
+    left: 220px;
+}
+
+#menu_4_8   {
+
+    top: 160px;
+    left: 320px;
+}
+/* ======================================================================*/
+#menu_5_1   {
+
+    top: 50px;
+    left: 20px;
+}
+
+#menu_5_2   {
+
+    top: 50px;
+    left: 120px;
+}
+
+#menu_5_3   {
+
+    top: 50px;
+    left: 220px;
+}
+
+#menu_5_4   {
+
+    top: 50px;
+    left: 320px;
+}
+
+#menu_5_5   {
+
+    top: 160px;
+    left: 20px;
+}
+
+#menu_5_6   {
+
+    top: 160px;
+    left: 120px;
+}
+
+#menu_5_7   {
+
+    top: 160px;
+    left: 220px;
+}
+
+#menu_5_8   {
+
+    top: 160px;
+    left: 320px;
+}
+/* ======================================================================*/
+
+
+
+
+#exitButton1   {
+
+    width: 30px;
+    height: 15px;   
+    top: 260px;
+    left: 340px;
+    background-size: 50px 50px;
+    border: 3px solid rgb(42, 143, 109);
+    background: #189ac2; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 10px; /* Уголки */
+    position: absolute;
+}
+
+#exitButton2  {
+
+    width: 30px;
+    height: 15px;   
+    top: 260px;
+    left: 340px;
+    background-size: 50px 50px;
+    border: 3px solid rgb(42, 143, 109);
+    background: #189ac2; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 10px; /* Уголки */
+    position: absolute;
+}
+
+#exitButton3  {
+
+    width: 30px;
+    height: 15px;   
+    top: 260px;
+    left: 340px;
+    background-size: 50px 50px;
+    border: 3px solid rgb(42, 143, 109);
+    background: #189ac2; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 10px; /* Уголки */
+    position: absolute;
+}
+
+#exitButton4  {
+
+    width: 30px;
+    height: 15px;   
+    top: 260px;
+    left: 340px;
+    background-size: 50px 50px;
+    border: 3px solid rgb(42, 143, 109);
+    background: #189ac2; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 10px; /* Уголки */
+    position: absolute;
+}
+
+#exitButton5   {
+
+    width: 30px;
+    height: 15px;   
+    top: 260px;
+    left: 340px;
+    background-size: 50px 50px;
+    border: 3px solid rgb(42, 143, 109);
+    background: #189ac2; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 10px; /* Уголки */
+    position: absolute;
+}
+
+
+
+.objectRotate {
+    transform: rotate(var(--objectRotate, 90deg));
+}
+

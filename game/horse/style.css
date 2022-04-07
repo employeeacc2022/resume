@@ -1,0 +1,192 @@
+.game{
+    width: 600px;
+    height: 300px;
+    border-bottom: 4px solid #000;
+    margin: auto;
+}
+
+#horse {
+    width: 100px;
+    height: 70px;
+    background-image: url(img/horse.gif);
+    background-size: 100px 70px;
+    position: relative;
+    top: 50px;
+}
+
+#wall {
+    width: 50px;
+    height: 30px;
+    background-image: url(img/wall.png);
+    background-size: 50px 30px;
+    position: relative;
+    top: 20px;
+    left: 580px;
+    animation: wallMove 3s infinite linear;
+}
+
+@keyframes wallMove{
+    0%{
+        left: 580px;
+    }
+    100%{
+        left: -20px;
+    }
+}
+
+
+#cloud {
+    width: 120px;
+    height: 60px;
+    background-image: url(img/cloud.png);
+    background-size: 120px 60px;
+    position: relative;
+    top: -50px;
+    left: 580px;
+    animation: cloudMove 12s infinite linear;
+}
+
+@keyframes cloudMove{
+    0%{
+        left: 280px;
+    }
+    100%{
+        left: -20px;
+    }
+}
+
+
+#coin {
+    width: 40px;
+    height: 40px;
+    background-image: url(img/coin.png);
+    background-size: 40px 40px;
+    position: relative;
+    top: -250px;
+    left: 660px;
+    /* animation: coinFall 2s infinite linear; */
+}
+
+
+.coinFall {
+    animation: coinFall 2s linear;
+}
+
+
+@keyframes coinFall{
+    0%{
+        top: -250px;
+    }
+    100%{
+        top: -75px;
+    }
+}
+
+
+#dot {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/dot.png);
+    background-size: 50px 50px;
+    position: absolute;
+    top: -350px;
+    left: 500px;
+}
+
+
+#bird {
+    width: 40px;
+    height: 40px;
+    background-image: url(img/bird.gif);
+    background-size: 40px 40px;
+    position: relative;
+    top: -320px;
+    left: 560px;
+    }
+
+.birdFly {
+    animation: birdMoveLeft 8s infinite linear;
+}
+
+.birdFall {
+    animation: birdMoveTop 3s linear;
+ }
+
+
+@keyframes birdMoveLeft{
+    0%{
+        left: 580px;
+    }
+    100%{
+        left: -20px;
+    }
+}
+
+
+@keyframes birdMoveTop{
+    0%{
+        top: -320px;
+    }
+
+    30%{
+        top: -280px;
+    }
+
+    60%{
+        top: -240px;
+    }
+    100%{
+        top: -175px;
+    }
+}
+
+
+#sun {
+    width: 120px;
+    height: 120px;
+    background-image: url(img/sun.gif);
+    background-size: 120px 120px;
+    position: relative;
+    top: 0px;
+    left: 500px;
+    /* animation: birdMoveLeft 12s infinite linear;
+    animation: birdMoveTop 2s linear; */
+}
+
+
+#bank {
+    width: 180px;
+    height: 120px;
+    background-image: url(img/bank.png);
+    background-size: 180px 120px;
+    position: relative;
+    top: -125px;
+    left: 590px;
+}
+
+
+.jump {
+    animation: horseJump 0.3s linear;
+}
+
+@keyframes horseJump {
+    0%{
+        top: 50px;
+    }
+
+    30%{
+        top: 20px;
+    }
+
+    50%{
+        top: -10px;
+    }
+
+    80%{
+        top: 20px;
+    }
+
+    100%{
+        top: 50px;
+    }
+}

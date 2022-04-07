@@ -1,0 +1,461 @@
+﻿/* Основной объект */
+#mainObject {
+  width: 800px;
+  height: 500px;
+  top: 5%;
+  left: 28%;
+}
+
+.mainObject {    
+  border: 3px solid #8bc441;;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 120px;
+  position: absolute;
+}
+
+/* Login now */
+.textTop1 {
+  top: 50px;
+  left: 80px;
+  color: #152d49;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+}
+
+/* Logo */
+#logoIMage    {
+  width: 15%;
+  height: 15%;    
+  background-size: 100% 100%;
+  background-image: url(../images/logo.svg);
+  top: 30px;
+  left: 550px;
+  position: absolute;
+}
+
+/* Training */
+.textTop2 {
+  top: 130px;
+  left: 80px;
+  color: #152d49;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+}
+
+/* url */
+.textTop3 {
+  top: 150px;
+  left: 80px;
+  color: #152d49;
+  font-family: "Roboto";
+  font-size: 16px;
+  position: absolute;
+}
+
+
+/* Username */
+#userName {   
+  top: 190px;
+  left: 80px;
+}
+
+/* Password */
+#password {  
+  top: 190px;
+  left: 410px;
+}
+
+/* Company Key */
+#companyKey {    
+  top: 250px;
+  left: 80px;
+}
+
+/* Page */
+#page {
+  top: 250px;
+  left: 410px;
+}
+
+/* Username + Password + Company Key + Page */
+.formClass {
+  width: 300px;
+  height: 32px;    
+  border: 3px solid #8bc441;;
+  color: #a09c9c;
+  text-align: left;
+  /* padding: 5px; */
+  border-radius: 30px;
+  position: absolute;
+}
+
+
+/* Page triangle */
+#pageTriangle {
+  top: 267px;
+  left: 690px;
+  width: 0; 
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #8bc441;
+  position: absolute;
+}
+
+
+/* Круги */
+#circle1 {    
+  top: 330px;
+  left: 80px;
+}
+
+#circle2 {    
+  top: 355px;
+  left: 80px;
+}
+
+.circle1Class {    
+  width: 14px; 
+  height: 14px;
+  border: 3px solid #8bc441;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle1Class.active  {    
+  background: #8bc441;
+}
+
+.circle2Class {    
+  width: 14px; 
+  height: 14px;
+  border: 3px solid #8bc441;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle2Class.active  {    
+  background: #8bc441;
+}
+
+
+/* Текст Privacy Policy */
+#privacyPolicy {    
+  top: 5px;
+  left: 10px;
+}
+
+/* Объект в котором расположен текст Privacy Policy, необходимо для реализации нажатия на кнопку*/
+#privacyPolicyArea
+{    
+  top: 323px;
+  left: 100px;
+  width: 120px;
+  height: 28px;    
+  /* border: 3px dashed #ff0000;;
+  border-radius: 30px; */
+  position: absolute;
+}
+
+/* Текст Terms&Conditions */
+#termsAndConditions {    
+  top: 5px;
+  left: 10px;
+}
+
+/* Объект в котором расположен текст Conditions, необходимо для реализации нажатия на кнопку*/
+#termsAndConditionsArea
+{    
+  top: 349px;
+  left: 100px;
+  width: 150px;
+  height: 28px;    
+  /* border: 3px dashed #ff0000;;
+  border-radius: 30px; */
+  position: absolute;
+}
+
+
+/* Блок с текстом в нижней части главного объекта*/
+#textTop4Block {
+  top: 440px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px; 
+  height: 90px;
+  /* border: 3px dashed #8bc441; */
+  color: #a09c9c;
+  font-family: "Roboto";
+  font-size: 8px;
+  text-align: center;
+  position: absolute;
+}
+
+
+/* Меню Page - scheduling, dispatching, submitting, billing */
+#pageMenu {  
+  top: 300px;
+  left: 410px;
+  width: 305px; 
+  height: 280px;
+  border: 3px solid #8bc441;
+  color: #152d49;
+  font-family: "Roboto";
+  font-size: 24px;
+  border-radius: 30px;
+  position: absolute;
+}
+
+.pageMenuClass {
+  /* Скрываем фон и сам попап. Запрещаем ему быть целью событий*/
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s all;
+}
+
+.pageMenuClass.active  {    
+  opacity: 1;
+  pointer-events: all;
+  transition: 0.5s all;
+}
+
+#scheduling {  
+  top: 15px;
+  left: 10px; 
+  width: 280px;
+  height: 50px;
+  background: #8bc441;
+  border: 3px solid #8bc441;
+  border-radius: 30px;
+  position: absolute;
+}
+
+#dispatching {  
+  top: 80px;
+  left: 10px; 
+  width: 280px;
+  height: 50px;
+  background: #8bc441;
+  border: 3px solid #8bc441;
+  border-radius: 30px;
+  position: absolute;
+}
+
+#submitting {   
+  top: 145px;
+  left: 10px;
+  width: 280px;
+  height: 50px;
+  background: #8bc441;
+  border: 3px solid #8bc441;
+  border-radius: 30px;
+  position: absolute;
+}
+
+#billing {
+  top: 210px;
+  left: 10px;
+  width: 280px;
+  height: 50px;
+  background: #8bc441;
+  border: 3px solid #8bc441;
+  border-radius: 30px;
+  position: absolute;
+}
+
+
+/* Центрируем текст в блоках scheduling, dispatching, submitting, billing */
+#schedulingText {
+  top: 10px;
+  left: 30px;
+  position: absolute;
+}
+
+#dispatchingText {
+  top: 10px;
+  left: 30px;
+  position: absolute;
+}
+
+#submittingText {
+  top: 10px;
+  left: 30px;
+  position: absolute;
+}
+
+#billingText {
+  top: 10px;
+  left: 30px;
+  position: absolute;
+}
+
+
+/* Центрируем текст в поле Username, Password, Company Key, Page */
+#usernameText {
+  top: 7px;
+  left: 25px;
+  position: absolute;
+}
+
+#passwordText {
+  top: 7px;
+  left: 25px;
+  position: absolute;
+}
+
+#companyKeyText {
+  top: 7px;
+  left: 25px;
+  position: absolute;
+}
+
+#pageText {
+  top: 7px;
+  left: 25px;
+  position: absolute;
+}
+
+
+
+/* privacyPolicyBlock */
+#privacyPolicyBlock {
+  width: 800px;
+  height: 700px;
+  top: -5%;
+  left: 50%;
+  background: #ffffff;
+  border: 8px solid #8bc441;
+  padding: 10px;
+  border-radius: 25px;
+  position: absolute;
+}
+
+.privacyPolicyBlockClass {
+  /* Скрываем фон и сам попап. Запрещаем ему быть целью событий*/
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s all;
+}
+
+.privacyPolicyBlockClass.active  {    
+  opacity: 1;
+  pointer-events: all;
+  transition: 0.5s all;
+}
+
+/* privacyPolicyPage */
+#privacyPolicyPage {
+  width: 600px;
+  height: 500px;
+  top: 5%;
+  left: 10%;
+  overflow: auto;
+  background: #ffffff;
+  border: 8px solid #8bc441;
+  padding: 10px;
+  border-radius: 25px;
+  position: absolute;
+}
+
+/* closeOption */
+#closeOption {
+  width: 250px;
+  height: 50px;
+  top: 85%;
+  left: 10%;
+  overflow: auto;
+  background: #ffffff;
+  border: 4px solid #8bc441;
+  padding: 10px;
+  border-radius: 40px;
+  position: absolute;
+}
+
+/* acceptOption */
+#acceptOption {
+  width: 250px;
+  height: 50px;
+  top: 85%;
+  left: 55%;
+  overflow: auto;
+  background: #8bc441;
+  border: 4px solid #8bc441;
+  padding: 10px;
+  border-radius: 40px;
+  position: absolute;
+}
+
+
+
+/* termsConditionsBlock */
+#termsConditionsBlock {
+  width: 800px;
+  height: 700px;
+  top: -5%;
+  left: 50%;
+  background: #ffffff;
+  border: 8px solid #8bc441;
+  padding: 10px;
+  border-radius: 25px;
+  position: absolute;
+}
+
+.termsConditionsClass {
+  /* Скрываем фон и сам попап. Запрещаем ему быть целью событий*/
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s all;
+}
+
+.termsConditionsClass.active  {    
+  opacity: 1;
+  pointer-events: all;
+  transition: 0.5s all;
+}
+
+/* termsConditionsPage */
+#termsConditionsPage {
+  width: 600px;
+  height: 500px;
+  top: 5%;
+  left: 10%;
+  overflow: auto;
+  background: #ffffff;
+  border: 8px solid #8bc441;
+  padding: 10px;
+  border-radius: 25px;
+  position: absolute;
+}
+
+/* closeOption2 */
+#closeOption2 {
+  width: 250px;
+  height: 50px;
+  top: 85%;
+  left: 10%;
+  overflow: auto;
+  background: #ffffff;
+  border: 4px solid #8bc441;
+  padding: 10px;
+  border-radius: 40px;
+  position: absolute;
+}
+
+/* acceptOption2 */
+#acceptOption2 {
+  width: 250px;
+  height: 50px;
+  top: 85%;
+  left: 55%;
+  overflow: auto;
+  background: #8bc441;
+  border: 4px solid #8bc441;
+  padding: 10px;
+  border-radius: 40px;
+  position: absolute;
+}
